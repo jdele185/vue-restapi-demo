@@ -22,7 +22,7 @@ onUnmounted(() => {
     >
       <img :src="currentCharacter.imageUrl" :alt="currentCharacter.name" />
       <h1 class="text-white-800 text-6xl font-bold">
-        Hi, I'm {{ currentCharacter.name }}
+        Hi, I am {{ currentCharacter.name }}
       </h1>
       <pre>{{ currentCharacter }}</pre>
     </div>
